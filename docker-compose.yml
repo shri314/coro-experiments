@@ -1,7 +1,7 @@
 version: '3.0'
 services:
    clang-libcpp-boost-env:
-      image: shri314/clang-libcpp-boost
+      image: shri314/clang-libcpp-boost:v8-vx-v1_68_0
       entrypoint: sleep infinity
       restart: always
       volumes:
